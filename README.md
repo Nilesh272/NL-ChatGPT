@@ -16,7 +16,7 @@ Agentic RAG prototype: verified, justifiable answers with citations and human-in
 
 ## Requirements
 
-- Python **3.10+** (3.11 recommended; required for Streamlit Cloud)
+- Python **3.11+** (required for Streamlit Cloud; see `.python-version`)
 - API keys are optional for **Phase 0** (mock retrieval and stub draft)
 
 ## Setup
@@ -120,7 +120,14 @@ uvicorn src.api.main:app --reload --port 8000
 # GET /chat/stream?query=...&stakes=medium  — SSE events
 ```
 
-Deploy Streamlit for fellowship prototype link: [Streamlit Community Cloud](https://streamlit.io/cloud) (connect repo, set secrets for API keys).
+### Deploy on Streamlit Cloud
+
+1. Push repo to GitHub (include `.python-version`, `requirements.txt`, `pyproject.toml`).
+2. [share.streamlit.io](https://share.streamlit.io) → main file: `app/streamlit_app.py`.
+3. Set **Python 3.11** in Advanced settings (must match `.python-version`).
+4. Add **Secrets**: `GROQ_API_KEY`, `TAVILY_API_KEY`, `LLM_PROVIDER=groq`, `USE_MOCK_WHEN_NO_KEYS=false`.
+
+See [docs/DEMO.md](./docs/DEMO.md) for the full deploy checklist.
 
 ## Phase 4 — Evaluation
 

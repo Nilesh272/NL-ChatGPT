@@ -1,5 +1,5 @@
-# Streamlit Community Cloud installs from this file (pip).
-# Keep in sync with pyproject.toml [project.dependencies].
+# Streamlit Community Cloud: Python 3.11+ (see .python-version).
+# Installs via pip when this file is present. Keep in sync with pyproject.toml.
 langgraph>=0.2.0
 langchain>=0.3.0
 langchain-core>=0.3.0
