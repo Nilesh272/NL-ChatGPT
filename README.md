@@ -16,7 +16,7 @@ Agentic RAG prototype: verified, justifiable answers with citations and human-in
 
 ## Requirements
 
-- Python **3.9+** (3.11+ recommended)
+- Python **3.10+** (3.11 recommended; required for Streamlit Cloud)
 - API keys are optional for **Phase 0** (mock retrieval and stub draft)
 
 ## Setup

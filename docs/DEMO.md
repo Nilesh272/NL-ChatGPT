@@ -44,8 +44,12 @@ Open: http://localhost:8501
 
 1. Push repo to GitHub (ensure `.env` is **not** committed).
 2. [share.streamlit.io](https://share.streamlit.io) → New app → point to `app/streamlit_app.py`.
-3. Secrets: `GROQ_API_KEY`, `TAVILY_API_KEY`, `LLM_PROVIDER=groq`.
-4. Paste URL in deck: **Prototype link**.
+3. **Python version:** 3.11 (repo includes `.python-version`; or set in app **Advanced settings**).
+4. Dependencies install from `requirements.txt` (Python **3.10+** required for current Streamlit).
+5. Secrets: `GROQ_API_KEY`, `TAVILY_API_KEY`, `LLM_PROVIDER=groq`, `USE_MOCK_WHEN_NO_KEYS=false`.
+6. Paste URL in deck: **Prototype link**.
+
+If deploy fails with “streamlit requires Python >=3.10”, bump Python to 3.11 and push the latest `pyproject.toml` / `requirements.txt`.
 
 ---
 
