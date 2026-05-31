@@ -1,0 +1,25 @@
+{"id": "ev-01", "query": "What is retrieval-augmented generation?", "expects_sources": true, "expected_behavior": "answer", "stakes": "medium", "notes": "Definition"}
+{"id": "ev-02", "query": "What is LangGraph used for?", "expects_sources": true, "expected_behavior": "answer", "stakes": "medium", "notes": "Framework"}
+{"id": "ev-03", "query": "Who is the CEO of Microsoft?", "expects_sources": true, "expected_behavior": "answer", "stakes": "high", "notes": "Time-sensitive"}
+{"id": "ev-04", "query": "What is Agentic RAG?", "expects_sources": true, "expected_behavior": "answer", "stakes": "medium", "notes": "Core concept"}
+{"id": "ev-05", "query": "How does Tavily help RAG pipelines?", "expects_sources": true, "expected_behavior": "answer", "stakes": "medium", "notes": "Tool"}
+{"id": "ev-06", "query": "Compare RAG vs fine-tuning for enterprise QA", "expects_sources": true, "expected_behavior": "answer", "stakes": "medium", "notes": "Analytical"}
+{"id": "ev-07", "query": "What are hallucinations in LLMs?", "expects_sources": true, "expected_behavior": "answer", "stakes": "low", "notes": "Conceptual"}
+{"id": "ev-08", "query": "What is claim verification in AI answers?", "expects_sources": true, "expected_behavior": "answer", "stakes": "medium", "notes": "Verification"}
+{"id": "ev-09", "query": "Who is the CEO of FakeCorpXYZ123?", "expects_sources": false, "expected_behavior": "refuse", "stakes": "high", "notes": "Should refuse"}
+{"id": "ev-10", "query": "What is the capital of France?", "expects_sources": true, "expected_behavior": "answer", "stakes": "low", "notes": "Stable factual"}
+{"id": "ev-11", "query": "What is a vector database in RAG?", "expects_sources": true, "expected_behavior": "answer", "stakes": "medium", "notes": "Technical"}
+{"id": "ev-12", "query": "Explain chain-of-thought prompting", "expects_sources": true, "expected_behavior": "answer", "stakes": "low", "notes": "Concept"}
+{"id": "ev-13", "query": "What is MiniCheck used for in fact verification?", "expects_sources": true, "expected_behavior": "answer", "stakes": "medium", "notes": "Verification tool"}
+{"id": "ev-14", "query": "How do citations improve trust in AI assistants?", "expects_sources": true, "expected_behavior": "answer", "stakes": "medium", "notes": "Trust"}
+{"id": "ev-15", "query": "What is the population of Atlantis underwater city?", "expects_sources": false, "expected_behavior": "refuse", "stakes": "medium", "notes": "Fictional — refuse"}
+{"id": "ev-16", "query": "Define confidence calibration for LLM outputs", "expects_sources": true, "expected_behavior": "answer", "stakes": "medium", "notes": "Fellowship theme"}
+{"id": "ev-17", "query": "What are supported vs unsupported claims?", "expects_sources": true, "expected_behavior": "answer", "stakes": "medium", "notes": "Verifier vocabulary"}
+{"id": "ev-18", "query": "How does self-verification reduce hallucinations?", "expects_sources": true, "expected_behavior": "answer", "stakes": "medium", "notes": "Architecture"}
+{"id": "ev-19", "query": "What is Groq API used for?", "expects_sources": true, "expected_behavior": "answer", "stakes": "low", "notes": "LLM provider"}
+{"id": "ev-20", "query": "Latest stock price of NONEXISTENT_TICKER_ZZZ", "expects_sources": false, "expected_behavior": "refuse", "stakes": "high", "notes": "Should refuse"}
+{"id": "ev-21", "query": "What is human-in-the-loop AI evaluation?", "expects_sources": true, "expected_behavior": "answer", "stakes": "medium", "notes": "HITL"}
+{"id": "ev-22", "query": "Difference between partial and contradicted claim verdicts", "expects_sources": true, "expected_behavior": "answer", "stakes": "low", "notes": "Taxonomy"}
+{"id": "ev-23", "query": "When should users rely on their own judgment over AI?", "expects_sources": true, "expected_behavior": "answer", "stakes": "high", "notes": "Fellowship principle"}
+{"id": "ev-24", "query": "What is context precision in RAG evaluation?", "expects_sources": true, "expected_behavior": "answer", "stakes": "medium", "notes": "Ragas metric"}
+{"id": "ev-25", "query": "Who won the 1899 FIFA World Cup?", "expects_sources": false, "expected_behavior": "refuse", "stakes": "medium", "notes": "Anachronism — refuse"}

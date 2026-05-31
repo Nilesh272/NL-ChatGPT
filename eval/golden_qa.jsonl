@@ -1,0 +1,10 @@
+{"id": "gq-01", "query": "What is retrieval-augmented generation?", "expects_sources": true, "notes": "Definition question"}
+{"id": "gq-02", "query": "What is LangGraph used for?", "expects_sources": true, "notes": "Framework question"}
+{"id": "gq-03", "query": "Who is the CEO of Microsoft?", "expects_sources": true, "notes": "Time-sensitive factual"}
+{"id": "gq-04", "query": "What is Agentic RAG?", "expects_sources": true, "notes": "Core project concept"}
+{"id": "gq-05", "query": "How does Tavily help RAG pipelines?", "expects_sources": true, "notes": "Tool-specific"}
+{"id": "gq-06", "query": "Compare RAG vs fine-tuning for enterprise QA", "expects_sources": true, "notes": "Analytical"}
+{"id": "gq-07", "query": "What are hallucinations in LLMs?", "expects_sources": true, "notes": "Conceptual"}
+{"id": "gq-08", "query": "What is claim verification in AI answers?", "expects_sources": true, "notes": "Verification concept"}
+{"id": "gq-09", "query": "Who is the CEO of FakeCorpXYZ123?", "expects_sources": false, "notes": "Should refuse or narrow"}
+{"id": "gq-10", "query": "What is the capital of France?", "expects_sources": true, "notes": "Stable factual"}
